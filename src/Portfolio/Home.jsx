@@ -1,4 +1,4 @@
-import React,{usestate} from "react";
+import React from "react";
 import Carousel from "./Carousel.JPG"
 import Carousel2 from "./Carousel2.jpg"
 import Carousel3 from "./Carousel3.JPG" 

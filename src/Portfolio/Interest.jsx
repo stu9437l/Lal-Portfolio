@@ -6,7 +6,7 @@ const Interest =()=>{
        <div className="row mb-3">
           <div className=" text-center mt-4" style={{ color: "#ffffff" }}>
             <div className="">
-              <h6 className=" py-0 font-monospace">what i like ?? </h6>
+              <h6 className=" py-0 font-monospace">What i like ?? </h6>
               <h1 className="title fw-bolder">Interests</h1>
             </div>
           </div>
@@ -38,8 +38,7 @@ const Interest =()=>{
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 interest_image">
-                       
+                <div className="col-lg-6 interest_image ">             
                 </div>
                 </div>
             </div>

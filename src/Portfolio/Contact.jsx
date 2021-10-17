@@ -7,6 +7,9 @@ const Contact = () => {
   const backgroundColor={
     backgroundImage:"linear-gradient(to right,rgba(29,27,69,0.7),rgba(9,61,91,0.4))"
   }
+  const social_inconvinence=()=>{
+    alert("Sorry!!! System not available.. Please select Facebook or Whats up")
+  }
   const a=new Date().toLocaleTimeString();
   const [time,setTime]=useState(a);
   const Update=()=>{
@@ -30,7 +33,7 @@ const Contact = () => {
       <div className="row mb-5">
         <div className=" text-center mt-4" style={{ color: "#ffffff" }}>
           <div className="">
-            <h6 className=" py-0 font-monospace">How i connect ?? </h6>
+            <h6 className=" py-0 font-monospace">How you connect ?? </h6>
             <h1 className="title fw-bolder">Contact</h1>
           </div>
         </div>
@@ -52,17 +55,17 @@ const Contact = () => {
                   <div className="social_icon col-sm-2 mx-2">
                   <a href="https://www.facebook.com/xettree.kanxo" target="_blank"><i className="fab fa-facebook-f fa-2x"></i></a>                  
                    </div>
-                  <div className="social_icon col-sm-2 mx-2">
+                  <div className="social_icon col-sm-2 mx-2" onClick={social_inconvinence}>
                   <a href=""><i className="fab fa-twitter fa-2x"></i></a>            
                   </div>
                   <div className="social_icon col-sm-2 mx-2">
-                  <a href=""> <i className="fab fa-whatsapp fa-2x"></i></a>
+                  <a href="https://wa.me/<9865818795>"> <i className="fab fa-whatsapp fa-2x"></i></a>
                   </div>
                   <div className="social_icon col-sm-2 mx-2">
-                  <a href=""><i className="fab fa-instagram fa-2x"></i></a>                  
+                  <a href=""><i className="fab fa-instagram fa-2x" onClick={social_inconvinence}></i></a>                  
                   </div>
                   <div className="social_icon col-sm-2 mx-2">
-                 <a href=""><i className="fab fa-linkedin-in fa-2x"></i></a>
+                 <a href=""><i className="fab fa-linkedin-in fa-2x" onClick={social_inconvinence}></i></a>
                   </div>
                   </div>
                 </div>

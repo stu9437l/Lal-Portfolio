@@ -81,15 +81,15 @@ const About = () => {
                           <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right" ></i> Birthday: September 20</h5>
                           <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Facebook: Lal Bahadur Budhachhetri</h5>
                           <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Phone: 9865818795</h5>
-                          <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> City:Kathamandu</h5>
+                          <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> City: Kathamandu</h5>
                         </div>
                       </div>
                       <div className="col-lg-6">
                         <div className="">
-                          <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Age:24</h5>
+                          <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Age: 24</h5>
                           <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Degree: BE Computer</h5>
                           <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Email: lalbahadurbc2054@gmail.com</h5>
-                          <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Marital Status:Single</h5>
+                          <h5 className="my-lg-1 handlePersonalDetail"><i class="fas fa-angle-double-right"></i> Marital Status: Unmarried</h5>
                         </div>
                       </div>
                     </div>

@@ -6,7 +6,7 @@ const CoverLetter = () => {
         <div className="row">
           <div className=" text-center mt-4" style={{ color: "#ffffff" }}>
             <div className="">
-              <h6 className=" py-0 font-monospace">Hardly request ?? </h6>
+              <h6 className=" py-0 font-monospace">Letter of Introduction ?? </h6>
               <h1 className="title fw-bolder">Cover Letter</h1>
             </div>
           </div>
@@ -15,7 +15,7 @@ const CoverLetter = () => {
                   <p className="lead fw-bolder">
                        Re: Application for internship </p>
                        <p className="lead fw-bolder text-transform">
-                       <i className="fas fa-pencil-alt"></i>I am writing to express my interest in the internship position within the your Software company as a junior web
+                       <i className="fas fa-pencil-alt"></i>I am writing to express my interest in the internship position within the your organization as a junior frontend Developer /
 designer. I am currently a graduated student in BE Computer at National Academy of Science and Technology
 (DEC). As part of my program, I have worked some of project while studying computer engineering.
 My goal upon graduation is to secure fellowship in software company. I believe that internship at your company
@@ -24,8 +24,7 @@ to develop the real world projects. </p>
 <p className="lead fw-bolder text-transform">
 I believe that the combination of my academic and professional experiences has provided me with the
 organizational, interpersonal and analytical skills that will enable me to make a significant contribution to the
-development of the different projects Enclosed please find a copy of my resume, which provides additional
-information on my background and work experience. Thank you for your time and consideration, and I look
+development of the different projects. Thank you for your time and consideration, and I look
 forward to hearing from you. </p>
                   <div className=" text-end me-2">
                       <p className="lead fw-bolder" style={{textDecorationLine:"underline"}}>

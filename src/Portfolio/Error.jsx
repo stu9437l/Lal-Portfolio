@@ -16,13 +16,7 @@ const Error = () => {
             Page Not Found
           </h1>
           <div className="">
-            <button
-              className="btn btn-outline-success border-4 fw-bold fs-2"
-              onClick={handleAboutPage}
-            >
-             
-              Go <i className="fas fa-user-graduate"></i> Home
-            </button>
+          <button className="btn btn-outline-success border-4 fw-bold fs-4" onClick={handleAboutPage}><i className="fas fa-house-user" ></i> Home</button>
           </div>
         </div>
       </div>

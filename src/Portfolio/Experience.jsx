@@ -6,7 +6,7 @@ const Experience = () => {
         <div className="row">
           <div className=" text-center mt-4" style={{ color: "#ffffff" }}>
             <div className="">
-              <h6 className=" py-0 font-monospace">Which Companies ?? </h6>
+              <h6 className=" py-0 font-monospace">Apprentices ?? </h6>
               <h1 className="title fw-bolder">Experience</h1>
             </div>
           </div>

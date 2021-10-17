@@ -6,7 +6,7 @@ const Projects = () => {
         <div className="row">
           <div className=" text-center mt-4" style={{ color: "#ffffff" }}>
             <div className="">
-              <h6 className=" py-0 font-monospace">what i do ?? </h6>
+              <h6 className=" py-0 font-monospace">What i do ?? </h6>
               <h1 className="title fw-bolder">Projects</h1>
             </div>
           </div>
