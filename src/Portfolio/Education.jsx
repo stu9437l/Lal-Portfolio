@@ -10,7 +10,7 @@ const Education = () => {
               <h1 className="title fw-bolder">Education</h1>
             </div>
           </div>
-          <div className="row">
+          <div className="row education_card_res education_card_margin_res">
             <div className="col-lg-5 rounded-3">
               <div className="text-center">
                 <div
@@ -76,7 +76,7 @@ const Education = () => {
               </div>
             </div>
           </div>
-          <div className="row ">
+          <div className="row education_card_res">
             <div className="col-lg-5 rounded-3 mx-auto">
               <div className="text-center">
                 <div

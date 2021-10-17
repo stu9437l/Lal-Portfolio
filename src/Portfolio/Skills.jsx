@@ -10,7 +10,7 @@ const Skills = () => {
               <h1 className="title fw-bolder">Skills</h1>
             </div>
           </div>
-          <div className="row ">
+          <div className="row education_card_res">
             <div className="col-md-6 my-2 ">
               <div className="skill_card ">
                 <div className=" skill_title  px-3 py-2 " style={{color:"white"}}>

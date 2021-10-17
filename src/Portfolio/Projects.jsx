@@ -11,12 +11,12 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-5">
+        <div className="row mb-5 projects_res">
           <div className="col-lg-3 project_title text-light">
             <div className="">
               <h3 className="fw-bolder text-center" >
-                <i className="fas fa-medal fa-2x" style={{color:"pink"}}></i> E-Stationery (Multivendors)
-              </h3>
+                <i className="fas fa-medal fa-2x" ></i> E-Stationery (Multivendors)
+              </h3> 
             </div>
             <div className="project_discription">
               <p className="lead fw-bolder text-light">
@@ -28,11 +28,11 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-5">
+        <div className="row mb-5 projects_res">
           <div className="col-lg-3 project_title text-light">
             <div className="">
               <h3 className="fw-bolder text-center">
-                <i className="fas fa-medal fa-2x" style={{color:"pink"}}></i> Criminal Record Management
+                <i className="fas fa-medal fa-2x" ></i> Criminal Record 
                 System
               </h3>
             </div>
@@ -46,11 +46,11 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-5">
+        <div className="row mb-5 projects_res">
           <div className="col-lg-3 project_title text-light">
             <div className="">
               <h3 className="fw-bolder text-center">
-                <i className="fas fa-medal fa-2x" style={{color:"pink"}}></i> Garment Management System
+                <i className="fas fa-medal fa-2x" ></i> Garment Management System
               </h3>
             </div>
             <div className="project_discription">

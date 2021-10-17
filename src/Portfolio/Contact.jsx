@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useState} from "react";
+import emailjs from "emailjs-com"
 const Contact = () => {
   const mystyle={
    backgroundImage: "linear-gradient(to right,rgba(9,61,91,0.9),rgba(9,61,91,0.2))",
@@ -6,6 +7,23 @@ const Contact = () => {
   const backgroundColor={
     backgroundImage:"linear-gradient(to right,rgba(29,27,69,0.7),rgba(9,61,91,0.4))"
   }
+  const a=new Date().toLocaleTimeString();
+  const [time,setTime]=useState(a);
+  const Update=()=>{
+    const b=new Date().toLocaleTimeString();
+    setTime(b);
+  }
+  setInterval(Update,1000);
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    emailjs.sendForm('service_n5k1m0n', 'my_first_portfolio', e.target, 'user_DhNZJTZpgGUdofLJpuOQ4')
+    .then(() => {
+    alert("Your message has been submitted..");},(error) => {
+        alert(error.message);
+    });
+    e.target.reset();
+  }
+
   return (
     <>
     <div className="container">
@@ -84,18 +102,18 @@ const Contact = () => {
           <div className="rounded-3" style={backgroundColor}>
             <div className="row">
                 <div className="px-4 py-3">
-                  <form action="">
+                  <form action="" onSubmit={handleSubmit}>
                     <div className="mb-3">
-                    <input type="text" className="form-control text-center py-2 " id="FormControlInput1" placeholder="Enter your name"/>
+                    <input type="text" className="form-control text-center py-2 " id="FormControlInput1" name="name" placeholder="Enter your name"/>
                     </div>
                     <div className="mb-3">
-                    <input type="Email" className="form-control text-center py-2" id="FormControlInput2" placeholder="Enter your email"/>
+                    <input type="email" className="form-control text-center py-2" id="FormControlInput2"  name="email"  placeholder="Enter your email" required />
                     </div>
                     <div className="mb-3">
-                    <input type="text" className="form-control text-center py-2" id="FormControlInput3" placeholder="Enter subject"/>
+                    <input type="text" className="form-control text-center py-2" id="FormControlInput3" name="subject"  placeholder="Enter subject" required />
                     </div>
                     <div className="mb-3">
-                    <textarea className="form-control" id="FormControlTextarea1" rows="3" placeholder="write Message"></textarea>
+                    <textarea className="form-control" id="FormControlTextarea1" rows="3"  name="message" placeholder="write Message" required ></textarea>
                     </div>
                     <div className="text-center  fs-3" >
                       <input type="Submit" value="Send message" className="send_message border-0 text-light fw-bolder rounded-3 py-2 px-3"style={{backgroundColor:"#093d5b"}}/>
@@ -106,12 +124,13 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
-    <div className="container-fluid px-0">
-    <div className="text-light my-2 get_in_touch" style={mystyle}>
-        <h3 className="fw-bolder get_ani">Get_In_Touch</h3>
+      <div className="">
+    <div className="mx-auto rounded-3 text-light my-2 get_in_touch d-flex align-items-center justify-content-center" style={mystyle}>
+        <h3 className="fw-bolder .get_ani">{time}</h3>
       </div>
     </div>
+    </div>
+  
     </>
   );
 };

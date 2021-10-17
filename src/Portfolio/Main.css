@@ -496,7 +496,8 @@ ul.dropdown-menu{
     justify-content: center;
     align-items: center;
 }
-.social_icon .fab{
+.social_icon .fab,
+.social_title_icon .fas{
     color: white;
 }
 .social_icon:hover .fab{
@@ -506,23 +507,11 @@ ul.dropdown-menu{
 .get_in_touch{
     position :relative;
     height: 78px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    
+    width: 20%;  
 }
 .send_message:hover{
     color:pink !important;
     background-color:#031520;
-}
-.get_ani{
-    position: absolute;
-    left: 0%;
-    animation: get_animation linear 10s infinite;  
-}
-.get_ani:hover{
-    color: pink;
-    cursor: pointer;
 }
 .text-transform{
     text-align: justify;
@@ -531,6 +520,13 @@ ul.dropdown-menu{
 .project_title{
     position: relative;
     background-color: #09496e;
+}
+.project_title .fas{
+    
+    color: pink;
+}
+.project_title .fas:hover{
+    color: #1c0375; 
 }
 .project_title::after{
     content: "";
@@ -585,6 +581,144 @@ ul.dropdown-menu{
       left:100%;
   }
 }
+@media(max-width:400px){
+    h1{
+        font-size:1.6rem;
+        font-weight: bolder;
+    }
+    h2{
+        font-size:1.4rem
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    h4{
+        font-size: 1.1rem;
+        font-weight: bolder;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    p{
+        font-size:0.8rem !important;
+    }
+    .tab_btn_image{
+      width: 100%;
+    }
+    .tab_btn_image_res{
+        display: grid;
+
+        grid-template-columns: repeat(2,1fr);
+    }
+    .education_card_res{
+        margin: auto;
+    }
+    .education_card_margin_res{
+        margin-top: 1.5rem;
+    }
+    .skill_title::after{
+        display: none;
+    }
+    .get_in_touch{
+        width: 40%;
+    }
+    .interest_image{
+        width: 100%;
+        height: 200px;
+    }
+    .project_title{
+        width: 100%;
+        padding:10px 0px;
+        margin-bottom: 4rem;
+    }
+    .project_discription{
+        bottom: 2rem;
+        left: 0;
+         top:56px;
+        width: 100%;
+        padding: 10px;
+        height: 115px;
+    }
+    .projects_res{
+       padding:0 10px;
+       margin:1rem auto;
+    }
+    .project_title::after{
+        display: none;
+    }
+    .wanna_be{
+        display: none;
+    }
+    .star{
+        position: absolute;
+        top: 40vh;
+        left: 10%;
+        animation: star-animation 3s linear infinite;
+    }
+    @keyframes star-animation{
+     from{
+         transform: scale(0);
+         opacity: 1;
+     }
+     to{
+         transform: scale(0.5);
+         opacity: 0;
+     }
+    }
+    .meteor{
+        position: absolute;
+        top: 15vh;
+        right:-5%;
+        animation: meteor-animation 4s linear infinite;
+        animation-delay: 2s;
+    }
+    @keyframes meteor-animation {
+        from{
+            opacity: 1;
+            transform: translate(0);
+        }
+        to{
+        transform: translate(-100px ,100px);
+        opacity: 0;
+        }
+    }
+    .meteor1{
+        position: absolute;
+        bottom: 3vh;
+        right:20%;
+        animation: meteor1-animation 4s linear infinite;
+        animation-delay: 10s;
+        opacity: 0;
+        
+    }
+    @keyframes meteor1-animation {
+        from{
+            
+            transform: translate(0);
+        }
+        to{
+        transform: translate(100px ,100px);
+        opacity: 1;
+        }
+    }
+    .circle{
+        position: absolute;
+        top: 66vh;
+        left:70%;
+        animation: circle-animation 1s ease-in-out infinite;
+    }
+    @keyframes circle-animation{
+        from{
+            transform: scale(0);
+            opacity: 0;
+        }
+        to{
+            transform: scale(0.3);
+            opacity: 0.6;
+        }
+       }
+
+}
 @media (max-width:992px){
     ul.dropdown-menu{
         width: 100%;
@@ -595,6 +729,7 @@ ul.dropdown-menu{
     .email_margin{
         margin-bottom: 1rem;
     }
+    
 }
 @media (max-width:485px){
     .education_linehight{
@@ -605,5 +740,10 @@ ul.dropdown-menu{
     }
     .skill_title::after{
     border-width: 15px;
+    }
+}
+@media(min-width:401px){
+    .star , .meteor ,.meteor1 , .circle{
+        display: none;
     }
 }

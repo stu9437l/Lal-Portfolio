@@ -10,7 +10,7 @@ const CoverLetter = () => {
               <h1 className="title fw-bolder">Cover Letter</h1>
             </div>
           </div>
-          <div className="row">
+          <div className="row mx-auto">
               <div className="text-dark bg-light p-3 my-2">
                   <p className="lead fw-bolder">
                        Re: Application for internship </p>

@@ -41,7 +41,7 @@ const Navbar=()=>{
         }     
     }
     const [menu, setMenu] = useState("fas fa-bars")
-    const [success,setdanger]=useState("success")
+    const [success,setdanger]=useState("dark")
     const handleMenu=()=>{
          if(menu==="fas fa-bars"){
              setMenu("fas fa-times")
@@ -49,7 +49,7 @@ const Navbar=()=>{
          }
          else{
              setMenu("fas fa-bars")
-             setdanger("success")
+             setdanger("dark")
          }
     }
     return(
