@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Lal-Portfolio/static/css/main.c892d750.chunk.css",
+    "main.js": "/Lal-Portfolio/static/js/main.fdaf9168.chunk.js",
+    "main.js.map": "/Lal-Portfolio/static/js/main.fdaf9168.chunk.js.map",
+    "runtime-main.js": "/Lal-Portfolio/static/js/runtime-main.05bec9dd.js",
+    "runtime-main.js.map": "/Lal-Portfolio/static/js/runtime-main.05bec9dd.js.map",
+    "static/js/2.0f668b5b.chunk.js": "/Lal-Portfolio/static/js/2.0f668b5b.chunk.js",
+    "static/js/2.0f668b5b.chunk.js.map": "/Lal-Portfolio/static/js/2.0f668b5b.chunk.js.map",
+    "index.html": "/Lal-Portfolio/index.html",
+    "static/css/main.c892d750.chunk.css.map": "/Lal-Portfolio/static/css/main.c892d750.chunk.css.map",
+    "static/js/2.0f668b5b.chunk.js.LICENSE.txt": "/Lal-Portfolio/static/js/2.0f668b5b.chunk.js.LICENSE.txt",
+    "static/media/Carousel.9b9f9f3f.JPG": "/Lal-Portfolio/static/media/Carousel.9b9f9f3f.JPG",
+    "static/media/Carousel2.31f249ab.jpg": "/Lal-Portfolio/static/media/Carousel2.31f249ab.jpg",
+    "static/media/Carousel3.c22c68b3.JPG": "/Lal-Portfolio/static/media/Carousel3.c22c68b3.JPG",
+    "static/media/Carousel4.f91afe07.jpg": "/Lal-Portfolio/static/media/Carousel4.f91afe07.jpg",
+    "static/media/Main.css": "/Lal-Portfolio/static/media/interest.e543e112.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05bec9dd.js",
+    "static/js/2.0f668b5b.chunk.js",
+    "static/css/main.c892d750.chunk.css",
+    "static/js/main.fdaf9168.chunk.js"
+  ]
+}
